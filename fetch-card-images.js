@@ -109,7 +109,7 @@ function main() {
     let gopherHerder = new GopherHerder();
     // TODO: here we should use the fs to require ./*Gopher.js
     let moduleNames = [
-        // "pkmncardsGopher",
+        "pkmncardsGopher",
         "cardmavinGopher"
     ];
     moduleNames.forEach( (moduleName) => {
