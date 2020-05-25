@@ -15,3 +15,7 @@ Look at pkmncardsGopher.js and cardmavinGopher.js for examples of getting and pa
 
 ## Dev Notes
 As development progresses, we should look for ways to refactor and reuse common code. Some of this is already done, but there will be more opportunities.
+
+Please make sure your new gopher downloads images as unique file names and that it skips downloading images that already exist in the local file store. See the existing gophers for examples.
+
+The program occasionally crashes with an "unhandled stream error in pipe". It looks like the low-level C code is not passing this error up to the javascript layer. 
